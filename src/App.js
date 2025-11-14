@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './Navbar';
-
 import AboutMe from './About_me';
 import Main from './Main';
 import Skills from './Skills';
@@ -41,6 +40,7 @@ function App() {
       <Skills id="skills" />
       <Projects id="project" />
       <ContactForm id="contact" />
+      
       {/* <EmailForm id="email" /> */}
     </div>
     )

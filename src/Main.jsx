@@ -1,9 +1,7 @@
-
 import './main2.css'
 import github from './images/github.png'
 import linked_in from './images/linked_in.png'
 import { motion } from 'framer-motion';
-import leetcodes from './images/leetcodes.png';
 
 
 
@@ -30,12 +28,11 @@ const Main = () => {
         <div className="logos">
         <a href="https://github.com/Bhumikaaggarwal" target="_blank" rel="noreferrer"><img src={github} alt=""  /></a>
         <a href="https://www.linkedin.com/in/bhumika-aggarwal-3140a7252/" target="_blank" rel="noreferrer"><img src={linked_in} alt=""></img></a>
-        <a href="https://leetcode.com/u/BhumikaAggarwal/" target="_blank" rel="noreferrer"><img src={leetcodes} alt=""></img></a>
         </div>
         </div>
         <div className="flex1">
         {/* <button className='buttonc'>E-Mail Me</button> */}
-        <button onClick={() => window.open("https://drive.google.com/file/d/1udYtCQ5CewnYFPrLXaAKaTX8mWDjGTFl/view?usp=drive_link")} className='buttonb'>Resume</button>
+        <button onClick={() => window.open("https://drive.google.com/file/d/1S-c8cwsmptPYBr2S1U_qUH0y4qdenJia/view?usp=drive_link")} className='buttonb'>Resume</button>
         </div>
       </div>
       <div className="right_main">

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import './BackToTopButton';
 
 const ContactForm = () => {
   const form = useRef(); 
@@ -70,6 +71,7 @@ const ContactForm = () => {
         </div>
         <button type="submit">Send Message</button>
       </form>
+      {/* <button>BackToTop</button> */}
     </section>
   );
 };
